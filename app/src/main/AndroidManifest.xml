@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFriendsr">
         <activity
+            android:name=".DetailNeymar"
+            android:exported="false" />
+        <activity
+            android:name=".DetailCavani"
+            android:exported="false" />
+        <activity
+            android:name=".DetailFalcao"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMappe"
+            android:exported="false" />
+        <activity
+            android:name=".DetailCristiano"
+            android:exported="false" />
+        <activity
+            android:name=".DetailMessi"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

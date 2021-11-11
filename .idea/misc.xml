@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Curru/AndroidStudioProjects/MyFriendsr/app/src/main/res/layout/activity_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Curru/AndroidStudioProjects/MyFriendsr/app/src/main/res/layout/activity_detail_cavani.xml" value="0.25" />
+        <entry key="..\:/Users/Curru/AndroidStudioProjects/MyFriendsr/app/src/main/res/layout/activity_detail_cristiano.xml" value="0.25" />
+        <entry key="..\:/Users/Curru/AndroidStudioProjects/MyFriendsr/app/src/main/res/layout/activity_detail_falcao.xml" value="0.25" />
+        <entry key="..\:/Users/Curru/AndroidStudioProjects/MyFriendsr/app/src/main/res/layout/activity_detail_mappe.xml" value="0.25" />
+        <entry key="..\:/Users/Curru/AndroidStudioProjects/MyFriendsr/app/src/main/res/layout/activity_detail_messi.xml" value="0.25" />
+        <entry key="..\:/Users/Curru/AndroidStudioProjects/MyFriendsr/app/src/main/res/layout/activity_detail_neymar.xml" value="0.25" />
         <entry key="..\:/Users/Curru/AndroidStudioProjects/MyFriendsr/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
