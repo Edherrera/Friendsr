@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
         startActivity(secondIntent)
         Toast.makeText(this, " Escogiste a Messi!!!", Toast.LENGTH_LONG).show()
+
     }
 
     fun gotoCristiano() {

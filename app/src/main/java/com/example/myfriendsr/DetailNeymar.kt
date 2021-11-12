@@ -1,5 +1,6 @@
 package com.example.myfriendsr
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.RatingBar
@@ -14,7 +15,10 @@ class DetailNeymar : AppCompatActivity() {
         //val textViewPuntaje = findViewById<TextView>(R.id.textViewPuntaje)
         ratingforapp.setOnRatingBarChangeListener { ratinBar, fl, b ->
             //textViewPuntaje.text = fl.toString()
-            Toast.makeText(this, "Calificaste: ${fl}!!", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Tu calificacíón para Neymar es: ${fl}!!", Toast.LENGTH_LONG).show()
+            val intent: Intent = Intent (this, MainActivity::class.java)
+            //intent.putExtra
+            startActivity(intent)
         }
     }
 }
