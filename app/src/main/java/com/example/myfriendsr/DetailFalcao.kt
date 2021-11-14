@@ -17,7 +17,7 @@ class DetailFalcao : AppCompatActivity() {
         val textViewPuntaje = findViewById<TextView>(R.id.textViewPuntaje)
         ratingforapp.setOnRatingBarChangeListener { ratinBar, fl, b ->
             textViewPuntaje.text = fl.toString()
-            Toast.makeText(this, "Tu alificacíón para Falcao es: ${fl}!!", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Tu Calificacíón para Falcao es: ${fl}!!", Toast.LENGTH_LONG).show()
             val intent: Intent = Intent (this, MainActivity::class.java)
             //intent.putExtra
             startActivity(intent)

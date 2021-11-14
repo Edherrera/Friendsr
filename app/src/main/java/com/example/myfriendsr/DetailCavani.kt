@@ -19,6 +19,7 @@ class DetailCavani : AppCompatActivity() {
             val intent: Intent = Intent (this, MainActivity::class.java)
             //intent.putExtra
             startActivity(intent)
+            finish()
         }
     }
 }

@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
         startActivity(secondIntent)
         Toast.makeText(this, " Escogiste a Messi!!!", Toast.LENGTH_LONG).show()
-
+        finish()
     }
 
     fun gotoCristiano() {
@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
         startActivity(secondIntent)
         Toast.makeText(this, " Escogiste a Cristiano!!!", Toast.LENGTH_LONG).show()
+        finish()
     }
 
     fun gotoMbappe() {
@@ -47,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
         startActivity(secondIntent)
         Toast.makeText(this, " Escogiste a Mbappe!!!", Toast.LENGTH_LONG).show()
+        finish()
     }
 
     fun gotoFalcao() {
@@ -54,6 +56,7 @@ class MainActivity : AppCompatActivity() {
         secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
         startActivity(secondIntent)
         Toast.makeText(this, " Escogiste a Falcao!!!", Toast.LENGTH_LONG).show()
+        finish()
     }
 
     fun gotoCavani() {
@@ -61,6 +64,7 @@ class MainActivity : AppCompatActivity() {
         secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
         startActivity(secondIntent)
         Toast.makeText(this, " Escogiste a Cavani!!!", Toast.LENGTH_LONG).show()
+        finish()
     }
 
     fun gotoNeymar() {
@@ -68,7 +72,9 @@ class MainActivity : AppCompatActivity() {
         secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
         startActivity(secondIntent)
         Toast.makeText(this, " Escogiste a Neymar!!!", Toast.LENGTH_LONG).show()
+        finish()
     }
+
 
 
 
